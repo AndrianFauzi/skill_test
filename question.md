@@ -15,10 +15,10 @@
 15. C. CDEFKLMN
 16. SELECT * FROM konsumen ORDER BY point DESC;
 17. SELECT * FROM konsumen WHERE nama LIKE '%Ahmad%'
-18. SELECT NIK, Name
+18. SELECT nik, nama
     FROM konsumen
     WHERE YEAR(PurchaseDate) >= YEAR(NOW()) - 2
-    GROUP BY NIK, Name
+    GROUP BY nik, nama
     ORDER BY SUM(TotalPurchase) DESC
     LIMIT 2, 1;
 19. SELECT SUM(total_pembelian_2017) AS total_pembelian
