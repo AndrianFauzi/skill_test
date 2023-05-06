@@ -14,7 +14,7 @@
 14. C. 8
 15. C. CDEFKLMN
 16. SELECT * FROM konsumen ORDER BY point DESC;
-17. SELECT * FROM konsumen WHERE nama_customer LIKE '%Ahmad%'
+17. SELECT * FROM konsumen WHERE nama LIKE '%Ahmad%'
 18. SELECT NIK, Name
     FROM konsumen
     WHERE YEAR(PurchaseDate) >= YEAR(NOW()) - 2
